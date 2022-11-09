@@ -6,7 +6,7 @@ class ClassifyingNumbers:
         self.propers = propers
         
     def properfactors(self):
-        
+        #creates for loop
         for n in range(1, self.number+1):
             if (self.number % n == 0):
                 self.propers.append(n)
